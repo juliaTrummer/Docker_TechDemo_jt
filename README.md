@@ -22,8 +22,7 @@ https://labs.play-with-docker.com/
 | Docker                                           | Virtual Machine                                                |
 |--------------------------------------------------|----------------------------------------------------------------|
 | funktioniert über Linux Kernel Techniken         | emuliert Hardware                                              |
-| Namespaces sind vom Hauptsystemabgetrennt                                                        
- können trotzdem auf den Linux Kernel zugreifen   | Abtrennung mit eigenem Bootloader, Kernel und  emulierten BIOS | 
+| Namespaces sind vom Hauptsystemabgetrennt können trotzdem auf den Linux Kernel zugreifen   | Abtrennung mit eigenem Bootloader, Kernel und  emulierten BIOS | 
 | ähnlich wie ein Prozess                          |                                                                |
 ## Image vs. Docker Container
 | Images                           | Container            |
