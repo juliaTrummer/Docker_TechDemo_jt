@@ -32,7 +32,7 @@ https://labs.play-with-docker.com/
 ![PlayWithDocker](./img/dockerlocal.png)
 ## Advanced Wordpress | MySql | PhpMyAdmin
 Der Code befindet sich hier:
-[docker-compose](.code/docker-compose.yaml)
+[docker-compose](./code/docker-compose.yaml)
 
 `<docker-compose up -d>`
 
