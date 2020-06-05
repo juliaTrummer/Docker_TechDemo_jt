@@ -11,13 +11,6 @@ https://docs.docker.com/docker-for-windows/install/
 ### PlayWithDocker
 Bei Docker **Registrieren oder Anmelden** :
 https://labs.play-with-docker.com/
-## First Start - Hello World
-### PlayWithDocker
-`<root@192.168.0.27 ~ docker run hello-world>`
-![PlayWithDocker](./img/playwithdocker.png)
-### Docker Desktop
-`<root@192.168.0.27 ~ docker run hello-world>`<br/>
-![PlayWithDocker](./img/dockerlocal.png)
 ## Docker vs. Virtual Machine
 | Docker                                           | Virtual Machine                                                |
 |--------------------------------------------------|----------------------------------------------------------------|
@@ -29,3 +22,18 @@ https://labs.play-with-docker.com/
 |----------------------------------|----------------------|
 | wie Programm                     | wie Prozess          |
 | ist Datenbasis für die Container | sind laufende Images |
+
+## First Start - Hello World
+### PlayWithDocker
+`<root@192.168.0.27 ~ docker run hello-world>`
+![PlayWithDocker](./img/playwithdocker.png)
+### Docker Desktop
+`<root@192.168.0.27 ~ docker run hello-world>`<br/>
+![PlayWithDocker](./img/dockerlocal.png)
+## Advanced Wordpress | MySql | PhpMyAdmin
+Der Code befindet sich hier:
+[docker-compose](.code/docker-compose.yaml)
+
+`<docker-compose up -d>`
+
+`<docker-compose down --volumes>`
